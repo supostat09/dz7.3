@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95FF871AE508C0A523B5B0D8 /* Pods_dz7_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF5E16F9800D9A49BA1A5FA /* Pods_dz7_3.framework */; };
 		D17BE92429D2C27500C78A0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BE92329D2C27500C78A0D /* AppDelegate.swift */; };
 		D17BE92629D2C27500C78A0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BE92529D2C27500C78A0D /* SceneDelegate.swift */; };
-		D17BE92829D2C27500C78A0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BE92729D2C27500C78A0D /* ViewController.swift */; };
-		D17BE92B29D2C27500C78A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17BE92929D2C27500C78A0D /* Main.storyboard */; };
 		D17BE92D29D2C27700C78A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17BE92C29D2C27700C78A0D /* Assets.xcassets */; };
 		D17BE93029D2C27700C78A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17BE92E29D2C27700C78A0D /* LaunchScreen.storyboard */; };
+		D17BE93A29D2E68000C78A0D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BE93929D2E68000C78A0D /* MainViewController.swift */; };
+		D17BE93C29D2E79A00C78A0D /* BellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BE93B29D2E79A00C78A0D /* BellViewController.swift */; };
+		D17BE93F29D2F08000C78A0D /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BE93E29D2F08000C78A0D /* PersonalData.swift */; };
+		D17BE94129D2F87200C78A0D /* CompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BE94029D2F87200C78A0D /* CompanyTableViewCell.swift */; };
+		D17BE96429D6B53200C78A0D /* Collor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BE96329D6B53200C78A0D /* Collor.swift */; };
+		D1B74D8329D9541800BCCE65 /* BellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B74D8229D9541800BCCE65 /* BellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		472DED568B0B1F2E1A064341 /* Pods-dz7.3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dz7.3.release.xcconfig"; path = "Target Support Files/Pods-dz7.3/Pods-dz7.3.release.xcconfig"; sourceTree = "<group>"; };
+		9248ABB1D41A2A668A6AF0E6 /* Pods-dz7.3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dz7.3.debug.xcconfig"; path = "Target Support Files/Pods-dz7.3/Pods-dz7.3.debug.xcconfig"; sourceTree = "<group>"; };
 		D17BE92029D2C27500C78A0D /* dz7.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dz7.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17BE92329D2C27500C78A0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D17BE92529D2C27500C78A0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D17BE92729D2C27500C78A0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D17BE92A29D2C27500C78A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D17BE92C29D2C27700C78A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D17BE92F29D2C27700C78A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D17BE93129D2C27700C78A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17BE93929D2E68000C78A0D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D17BE93B29D2E79A00C78A0D /* BellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellViewController.swift; sourceTree = "<group>"; };
+		D17BE93E29D2F08000C78A0D /* PersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
+		D17BE94029D2F87200C78A0D /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
+		D17BE96329D6B53200C78A0D /* Collor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collor.swift; sourceTree = "<group>"; };
+		D1B74D8229D9541800BCCE65 /* BellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellTableViewCell.swift; sourceTree = "<group>"; };
+		EDF5E16F9800D9A49BA1A5FA /* Pods_dz7_3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dz7_3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FF871AE508C0A523B5B0D8 /* Pods_dz7_3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		137E05F7618364B7F7FC2531 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9248ABB1D41A2A668A6AF0E6 /* Pods-dz7.3.debug.xcconfig */,
+				472DED568B0B1F2E1A064341 /* Pods-dz7.3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5EEACA00EC9606A3C1FB952C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5E16F9800D9A49BA1A5FA /* Pods_dz7_3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D17BE91729D2C27500C78A0D = {
 			isa = PBXGroup;
 			children = (
 				D17BE92229D2C27500C78A0D /* dz7.3 */,
 				D17BE92129D2C27500C78A0D /* Products */,
+				137E05F7618364B7F7FC2531 /* Pods */,
+				5EEACA00EC9606A3C1FB952C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,51 @@
 		D17BE92229D2C27500C78A0D /* dz7.3 */ = {
 			isa = PBXGroup;
 			children = (
-				D17BE92329D2C27500C78A0D /* AppDelegate.swift */,
-				D17BE92529D2C27500C78A0D /* SceneDelegate.swift */,
-				D17BE92729D2C27500C78A0D /* ViewController.swift */,
-				D17BE92929D2C27500C78A0D /* Main.storyboard */,
+				D17BE96229D6B4FA00C78A0D /* Utils */,
+				D17BE93D29D2EFBE00C78A0D /* Model */,
+				D17BE93829D2E63400C78A0D /* common */,
+				D17BE93729D2C28B00C78A0D /* AppDelegate */,
 				D17BE92C29D2C27700C78A0D /* Assets.xcassets */,
 				D17BE92E29D2C27700C78A0D /* LaunchScreen.storyboard */,
 				D17BE93129D2C27700C78A0D /* Info.plist */,
 			);
 			path = dz7.3;
+			sourceTree = "<group>";
+		};
+		D17BE93729D2C28B00C78A0D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D17BE92329D2C27500C78A0D /* AppDelegate.swift */,
+				D17BE92529D2C27500C78A0D /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D17BE93829D2E63400C78A0D /* common */ = {
+			isa = PBXGroup;
+			children = (
+				D17BE93929D2E68000C78A0D /* MainViewController.swift */,
+				D17BE93B29D2E79A00C78A0D /* BellViewController.swift */,
+				D17BE94029D2F87200C78A0D /* CompanyTableViewCell.swift */,
+				D1B74D8229D9541800BCCE65 /* BellTableViewCell.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		D17BE93D29D2EFBE00C78A0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D17BE93E29D2F08000C78A0D /* PersonalData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D17BE96229D6B4FA00C78A0D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D17BE96329D6B53200C78A0D /* Collor.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D17BE93429D2C27700C78A0D /* Build configuration list for PBXNativeTarget "dz7.3" */;
 			buildPhases = (
+				141B5F4EB5191EAF67417813 /* [CP] Check Pods Manifest.lock */,
 				D17BE91C29D2C27500C78A0D /* Sources */,
 				D17BE91D29D2C27500C78A0D /* Frameworks */,
 				D17BE91E29D2C27500C78A0D /* Resources */,
+				1456D9AE96E9B647AA942307 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +197,72 @@
 			files = (
 				D17BE93029D2C27700C78A0D /* LaunchScreen.storyboard in Resources */,
 				D17BE92D29D2C27700C78A0D /* Assets.xcassets in Resources */,
-				D17BE92B29D2C27500C78A0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141B5F4EB5191EAF67417813 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dz7.3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1456D9AE96E9B647AA942307 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dz7.3/Pods-dz7.3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dz7.3/Pods-dz7.3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dz7.3/Pods-dz7.3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D17BE91C29D2C27500C78A0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D17BE92829D2C27500C78A0D /* ViewController.swift in Sources */,
+				D17BE93C29D2E79A00C78A0D /* BellViewController.swift in Sources */,
+				D17BE96429D6B53200C78A0D /* Collor.swift in Sources */,
 				D17BE92429D2C27500C78A0D /* AppDelegate.swift in Sources */,
+				D17BE94129D2F87200C78A0D /* CompanyTableViewCell.swift in Sources */,
+				D1B74D8329D9541800BCCE65 /* BellTableViewCell.swift in Sources */,
 				D17BE92629D2C27500C78A0D /* SceneDelegate.swift in Sources */,
+				D17BE93A29D2E68000C78A0D /* MainViewController.swift in Sources */,
+				D17BE93F29D2F08000C78A0D /* PersonalData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D17BE92929D2C27500C78A0D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D17BE92A29D2C27500C78A0D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D17BE92E29D2C27700C78A0D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +390,7 @@
 		};
 		D17BE93529D2C27700C78A0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9248ABB1D41A2A668A6AF0E6 /* Pods-dz7.3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +400,6 @@
 				INFOPLIST_FILE = dz7.3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +417,7 @@
 		};
 		D17BE93629D2C27700C78A0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472DED568B0B1F2E1A064341 /* Pods-dz7.3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,7 +427,6 @@
 				INFOPLIST_FILE = dz7.3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
